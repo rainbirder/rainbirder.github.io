@@ -68,6 +68,25 @@
         .rec-item { margin-bottom: 15px; }
         .rec-name { font-weight: bold; color: #d35400; text-decoration: none; }
         .rec-desc { font-size: 0.95rem; color: #444; }
+        /* --- 여기부터 새로 추가하는 부분 --- */
+        
+        /* 식당 및 숙소 이름(링크) 호버 효과 */
+        .rec-name {
+            transition: color 0.2s; /* 색이 부드럽게 바뀌도록 설정 */
+        }
+        
+        .rec-name:hover {
+            color: #2980b9; /* 마우스를 올리면 파란색으로 변함 */
+            text-decoration: underline; /* 밑줄이 생김 */
+            cursor: pointer; /* 마우스 커서가 손가락 모양으로 확실하게 변함 */
+        }
+
+        /* 본문 중간에 섞여 있는 일반 링크들(DMZ 웹사이트 등)도 밑줄 생기게 */
+        .tour-box a:hover, .info-box a:hover {
+             text-decoration: underline;
+        }
+
+        /* --- 여기까지 --- */
     </style>
 </head>
 <body>
