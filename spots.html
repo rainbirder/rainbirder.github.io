@@ -1,42 +1,61 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birding in Korea</title>
+    <title>Birding Spots - Birding in Korea</title>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3145742080873092"
      crossorigin="anonymous"></script>
-    <meta name="description" content="The ultimate guide for birding in Korea. Discover the best birdwatching spots, seasonal species guides, and guided tour information for foreigners visiting Korea.">
+    <meta name="description" content="List of best birdwatching spots in South Korea.">
     <link rel="stylesheet" href="style.css">
-    <meta name="google-site-verification" content="clrvvZoOr45glfWm_44ECzpPGToRJsq2PgITZS4HEk0" />
+    <style>
+        /* 목록 페이지 전용 스타일 */
+        .page-header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #f8f9fa;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+        }
+        .page-header h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .page-header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+    </style>
 </head>
 <body>
-
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Birding in Korea</h1>
-            <p>Discover the hidden avian gems of the peninsula</p>
-        </div>
-    </header>
 
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="spots.html">Birding Spots</a></li>
-            <li><a href="#">Species Guide (coming soon) </a></li>
+            <li><a href="spots.html" class="active">Birding Spots</a></li>
+            <li><a href="#">Species Guide</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
 
+    <div class="page-header">
+        <div class="container">
+            <h1>Birding Spots</h1>
+            <p>Explore the best birdwatching locations in South Korea.</p>
+        </div>
+    </div>
+
     <main class="container">
-        <h2>Latest Stories</h2>
         <div class="grid">
+            
             <article class="card">
                 <div class="card-image" style="background-image: url('images/Cranes/Red-crowned_crane-1.JPG');"></div>
                 <div class="card-content">
+                    <span style="color: #2980b9; font-size: 0.9rem; font-weight: bold;">Gangwon-do</span>
                     <h3>Cheorwon: Heaven for Cranes</h3>
                     <p>Meeting the majestic Red-crowned and White-naped Cranes near the DMZ area.</p>
-                    <a href="spots/cheorwon.html" class="btn">Read More</a>
+                    <a href="spots/cheorwon.html" class="btn">Read Guide</a>
                 </div>
             </article>
 
@@ -45,6 +64,7 @@
                     <span style="color: #999;">Coming Soon</span>
                 </div>
                 <div class="card-content">
+                    <span style="color: #999; font-size: 0.9rem; font-weight: bold;">Gyeongsangnam-do</span>
                     <h3>(Coming soon)</h3>
                     <p>(Article coming soon)</p>
                     <a href="#" class="btn" style="background-color: #ccc; cursor: default;">Coming Soon</a>
@@ -56,11 +76,13 @@
                     <span style="color: #999;">Coming Soon</span>
                 </div>
                 <div class="card-content">
+                    <span style="color: #999; font-size: 0.9rem; font-weight: bold;">Chungcheongnam-do</span>
                     <h3>(Coming soon)</h3>
                     <p>(Article coming soon)</p>
                     <a href="#" class="btn" style="background-color: #ccc; cursor: default;">Coming Soon</a>
                 </div>
             </article>
+
         </div>
     </main>
 
